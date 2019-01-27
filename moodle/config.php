@@ -9,7 +9,7 @@ $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle';
 $CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbpass    = 'QepH1EmH6A73Yt';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/moodle';
-$CFG->dataroot  = 'C:\\wamp\\moodledata';
+$CFG->wwwroot   = 'http://35.247.212.253/sia-online/moodle';
+$CFG->dataroot  = '/var/www/html/sia-online/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
